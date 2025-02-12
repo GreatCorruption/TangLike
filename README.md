@@ -1,65 +1,51 @@
-# FREE FACEBOOK LIKES - WITH TERMUX
-<div align="center">
-  <img src="https://github.com/RozhakXD/TangLike/assets/65714340/f44d7030-ef1e-4dd9-a5f7-1d6790830f68">
-  <br>
-  <br>
-  <p>
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rozhakxd/TangLike">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/rozhakxd/TangLike">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/rozhakxd/TangLike">
-    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/rozhakxd/TangLike">
-    <img alt="Maintenance" src="https://img.shields.io/maintenance/no/2024">
-  </p>
-  <h4> Free Facebook Likes Using Termux ! </h4>
-</div>
+# 🚀 TangLike - Free Facebook Likes Tool
+![TangLike Logo](https://github.com/user-attachments/assets/70ff31f7-0abf-4258-84aa-e3d05fcc85bb)
+✨ **Alat Gratis untuk Mendapatkan Like/Likes Permanen di Postingan Facebook dengan Mudah dan Cepat!** ✨
 
-##
+## 📜 Deskripsi
+**TangLike** adalah tools otomatis yang dirancang untuk membantu Anda mendapatkan suka (like) pada postingan Facebook secara aman, permanen, dan efisien. Dengan memanfaatkan layanan bypass reCAPTCHA, proses pengiriman likes menjadi lebih mudah tanpa hambatan verifikasi manual. Tools ini cocok untuk meningkatkan visibilitas postingan Anda di platform sosial media!
 
-### What is TangLike?
-[**TangLike**](https://github.com/RozhakXD/TangLike) is a tools to make it easier for us to get likes on Facebook posts for free. This tools is equipped with a function to solve captcha codes so that we don't have to do it manually. One account only has 10 attempts per day to send likes, you can use another account if you want to send likes again.
+## 🔗 **Fitur Unggulan**:
+- 🛡️ **Bypass reCAPTCHA**: Integrasi dengan API Multibot untuk melewati verifikasi otomatis.
+- 🌟 **Aman & Permanen**: Menggunakan metode yang stabil dan terpercaya.
+- ⚡ **Cepat & Efisien**: Dukung hingga 100 likes per permintaan.
+- 📊 **Pelacakan Real-Time**: Pantau jumlah sukses/gagal secara langsung.
 
-You can get 100 to 50 likes in less than 5 minutes and you are also limited to every 15 minutes for sending the next like.
+## 🛠️ Prasyarat
+- 🍪 **Cookies Akun Facebook** (direkomendasikan akun palsu untuk menghindari risiko).
+- 🔑 **API Key Multibot.in** (untuk bypass reCAPTCHA, [daftar di sini](https://multibot.in/dashboard/signup.php)).
+- 🐍 **Python 3.8+** terinstal di perangkat.
 
-### Termux command?
-First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) to run this script and for how to use it can be seen on [**Youtube**](https://youtu.be/p70DemPTw18). Then you enter this command into termux!
-
-```
+## 📥 Instalasi
+```bash
 $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
 $ git clone https://github.com/RozhakXD/TangLike
 $ cd "TangLike"
-$ python -m pip install -r requirements.txt
+$ pip install -r requirements.txt
 $ python Run.py
 ```
 
-```
-$ cd "$HOME/TangLike" && git pull
-$ python Run.py
-```
+## 🖥️ Cara Penggunaan
+1. **Masukkan Cookies Facebook**:
+   - ⚠️ **Gunakan akun palsu untuk menghindari checkpoint!**
+   - Salin cookies dari browser dan tempelkan saat diminta.
+3. **Input ID Postingan**:
+   - Masukkan ID postingan Facebook yang ingin Anda dapatkan likes-nya (contoh: `123456789`).
+4. **Tunggu Proses**:
+   - Tools akan otomatis mengirim likes dan menampilkan status real-time.
 
-### Why aren't likes coming in?
-- Maybe there was an error in the post ID you entered or the post is not in public mode.
-- There are no users available in this service.
-- The service is being repaired or is no longer working.
+## ⚙️ Konfigurasi API Key Multibot
+Daftarkan diri Anda di [Multibot.in](https://multibot.in/dashboard/signup.php). Setelah itu, buka file `Run.py` dan cari baris ke-152. Gantilah `YOUR KEY!` dengan API key Anda menggunakan format berikut:  
 
-### Error bypassing CAPTCHA?
-- We recommend using this tool from 9 am to 5 pm, so that the captcha bypassing service is active.
-- Maybe your key is no longer valid or your credit has run out.
-- The service for bypassing captchas is being repaired or is no longer working.
-
-### Why login failed?
-- Maybe your cookies have expired or your account has been checkpointed.
-- You can use another account if you still can't log in.
-- Your account has been detected as spam so Facebook won't allow you to log in.
-
-##
-
-### Screenshot?
-![Images](https://github.com/RozhakXD/TangLike/assets/65714340/146fb134-96a2-4f8c-8f16-2f428887c217)
-
-##
 ```python
-print("Thank You!")
+self.key = ("API_KEY_ANDA")
 ```
-##
+
+## 📌 Catatan Penting
+- 🚫 **Jangan gunakan akun Facebook utama!** Risiko checkpoint/akun terkunci mungkin terjadi.
+- ⏳ Batas penggunaan harian: 100 likes per akun.
+- 🔄 Jika gagal, tunggu 15 menit sebelum mencoba ulang.
+
+## 📜 Lisensi
+Proyek ini dilisensikan di bawah **MIT License**. Lihat [LICENSE](LICENSE) untuk detail.
