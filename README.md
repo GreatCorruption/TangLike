@@ -3,7 +3,7 @@
 ✨ **Alat Gratis untuk Mendapatkan Like/Likes Permanen di Postingan Facebook dengan Mudah dan Cepat!** ✨
 
 ## 📜 Deskripsi
-**TangLike** adalah tools otomatis yang dirancang untuk membantu Anda mendapatkan suka (like) pada postingan Facebook secara aman, permanen, dan efisien. Dengan memanfaatkan layanan bypass reCAPTCHA, proses pengiriman likes menjadi lebih mudah tanpa hambatan verifikasi manual. Tools ini cocok untuk meningkatkan visibilitas postingan Anda di platform sosial media!
+**TangLike** adalah alat keren yang dirancang untuk membantu kamu mendapatkan **suka/like** di postingan Facebook dengan **aman**, **permanen**, dan **mudah**! Alat ini memanfaatkan layanan bypass recaptcha sehingga proses mendapatkan like menjadi cepat dan efisien. 🚀✨
 
 ## 🔗 **Fitur Unggulan**:
 - 🛡️ **Bypass reCAPTCHA**: Integrasi dengan API Multibot untuk melewati verifikasi otomatis.
