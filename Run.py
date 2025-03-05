@@ -177,7 +177,7 @@ class BYPASS:
         pass
 
     def RECAPTCHA(self, sitekey): # Register here <https://multibot.in/dashboard/signup.php> and change the key!
-        self.key = ("YOUR KEY!")
+        self.key = ("kcWa41NJOwnXoClbfg30FA7zEVIjSM8u")
         response = requests.get(f'http://api.multibot.in/in.php?key={self.key}&method=userrecaptcha&googlekey={sitekey}&pageurl=https://tanglike.biz/hacklike.php')
         if 'ERROR_ZERO_BLANCE' in str(response.text):
             printf(Panel(f"[italic red]Kamu Harus Mengganti Key MultiBot Dengan Yang Baru, Silahkan Registerasi Dan Ubah Key Ini Dengan Key Yang Kamu Punya!", width=66, style="bold dark_goldenrod", title=">>> [Saldo Habis] <<<"))
